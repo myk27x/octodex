@@ -39,7 +39,6 @@ li.nav a{
   float: left;
   margin-left: 15px;
   line-height: 25px;
-  /*color: #000;*/
   font-weight: bold;
   font-size: 13px;
   display: block;
@@ -56,4 +55,32 @@ li.nav a:visited {
 
 li.nav a:hover {
   color: #4183c4;
+}
+
+.rcolumn {
+  height: 446px;
+  width: 446px;
+  /*margin: 0px 9px 0px 9px;*/
+  float: right;
+  margin: 15px 170px 15px 9px;
+}
+
+div.rcolumn a {
+  border: solid #cacaca;
+  border-width: 2;
+  border-radius: 5px;
+  background: #fff;
+  display: block;
+  float: right;
+}
+
+#megacat {
+  display: block;
+  background: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+ {
+
 }

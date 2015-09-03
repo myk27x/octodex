@@ -94,15 +94,6 @@ div.rcolumn a {
   margin: 10px;
 }
 
-div.imgfooter p {
-  float: left;
-  margin: 5px 0;
-  color: #cacaca;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .lcolumn {
   height: 446px;
   width: 446px;
@@ -126,9 +117,20 @@ div.lcolumn a {
   margin: 10px;
 }
 
-.imgfooter {
-  font-family: helvetica arial freesans clean sans-serif;
+div.rimgfooter p {
+  padding-top: 10px;
+  float: left;
+  margin: 5px 0;
+  color: #cacaca;
+  display: inline-block;
   font-size: 16px;
+  font-weight: bold;
+}
+
+.rimgfooter {
+  font-family: helvetica arial freesans clean sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
   color: #666;
   text-align: right;
   padding-bottom: 12px;
@@ -139,4 +141,30 @@ div.lcolumn a {
   float: right;
   border: 0px 0px 1px 0px;
   margin: 0px 0px 22px 12px;
+}
+
+div.limgfooter p {
+  padding-top: 10px;
+  float: left;
+  margin: 5px 0;
+  color: #cacaca;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.limgfooter {
+  font-family: helvetica arial freesans clean sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #666;
+  text-align: right;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cacaca;
+  background-color: #fff;
+  height: 40px;
+  width: 426px;
+  float: left;
+  border: 0px 0px 1px 0px;
+  margin: 0px 12px 22px 0px;
 }

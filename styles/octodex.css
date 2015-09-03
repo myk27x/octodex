@@ -57,30 +57,61 @@ li.nav a:hover {
   color: #4183c4;
 }
 
+#wrapper {
+  margin: 15px 170px 15px 170px;
+}
+
+.triangle {
+  background-color: black;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 16px 8px 0 8px;
+  border-color: #007bff transparent transparent transparent;
+}
+
 .rcolumn {
   height: 446px;
   width: 446px;
   /*margin: 0px 9px 0px 9px;*/
   float: right;
-  margin: 15px 170px 15px 9px;
 }
 
 div.rcolumn a {
   border: solid #cacaca;
-  border-width: 2;
-  border-radius: 5px;
+  border-width: 1px;
+  border-radius: 3px;
   background: #fff;
   display: block;
   float: right;
 }
 
-#megacat {
+.picsr {
   display: block;
   background: #fff;
   text-align: center;
   margin: 10px;
 }
 
- {
+.lcolumn {
+  height: 446px;
+  width: 446px;
+  /*margin: 0px 9px 0px 9px;*/
+  float: right;
+}
 
+div.lcolumn a {
+  border: solid #cacaca;
+  border-width: 1px;
+  border-radius: 3px;
+  background: #fff;
+  display: block;
+  float: left;
+}
+
+.picsl {
+  display: block;
+  background: #fff;
+  text-align: center;
+  margin: 10px;
 }

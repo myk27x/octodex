@@ -62,12 +62,13 @@ li.nav a:hover {
 }
 
 .triangle {
-  background-color: black;
+  float: right;
+  background-color: #sfff;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 16px 8px 0 8px;
-  border-color: #007bff transparent transparent transparent;
+  border-width: 12px 10px 0 10px;
+  border-color: #b5bec7 transparent transparent transparent;
 }
 
 .rcolumn {
@@ -93,6 +94,15 @@ div.rcolumn a {
   margin: 10px;
 }
 
+div.imgfooter p {
+  float: left;
+  margin: 5px 0;
+  color: #cacaca;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .lcolumn {
   height: 446px;
   width: 446px;
@@ -114,4 +124,19 @@ div.lcolumn a {
   background: #fff;
   text-align: center;
   margin: 10px;
+}
+
+.imgfooter {
+  font-family: helvetica arial freesans clean sans-serif;
+  font-size: 16px;
+  color: #666;
+  text-align: right;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cacaca;
+  background-color: #fff;
+  height: 40px;
+  width: 426px;
+  float: right;
+  border: 0px 0px 1px 0px;
+  margin: 0px 0px 22px 12px;
 }
